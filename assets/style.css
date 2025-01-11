@@ -81,6 +81,7 @@ header button:hover {
     color: #006A50;
     cursor: pointer;
     border: none;
+    border: 1px solid #006A50;
 }
 
 .pillar, .vision {
@@ -147,6 +148,7 @@ header button:hover {
     color: rgba(84, 144, 245, 1);
     cursor: pointer;
     border: none;
+    border: 1px solid rgba(84, 144, 245, 1);
 }
 
 .vision-details-02 {
@@ -176,6 +178,7 @@ header button:hover {
     color: rgba(9, 161, 92, 1);
     cursor: pointer;
     border: none;
+    border: 1px solid rgba(9, 161, 92, 1);
 }
 
 .vision-details-03 {
@@ -205,4 +208,69 @@ header button:hover {
     color: rgba(255, 194, 57, 1);
     cursor: pointer;
     border: none;
+    border: 1px solid rgba(255, 194, 57, 1);
+}
+
+.read-more-button button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #006A50;
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.read-more-button button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #006A50;
+}
+
+.recent-news-images {
+    width: 408px;
+    height: 306px;
+    padding: 0px;
+    border-radius: 24px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.recent-news-details {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    margin: 25px 0px;
+}
+
+.recent-news-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-time {
+    display: flex;
+    gap: 25px;
+}
+
+.date-time p {
+    padding: 0px;
+}
+
+.recent-news {
+    padding: 0px;
+}
+
+.recent-news-heading, .recent-news-heading h2, .recent-news-heading p {
+    padding: 0px;
+}
+
+.recent-news-info {
+    text-align: justify;
 }
