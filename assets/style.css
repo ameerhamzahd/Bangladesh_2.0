@@ -35,6 +35,7 @@ header button:hover {
     color: whitesmoke;
     cursor: pointer;
     border-color: whitesmoke;
+    border: 1px solid whitesmoke;
 }
 
 .thumbnail {
@@ -261,6 +262,7 @@ header button:hover {
 
 .date-time p {
     padding: 0px;
+    color: rgba(14, 14, 14, 0.5);
 }
 
 .recent-news {
@@ -271,6 +273,83 @@ header button:hover {
     padding: 0px;
 }
 
+.recent-news-heading p {
+    color: rgba(14, 14, 14, 0.5);;
+}
+
 .recent-news-info {
     text-align: justify;
+}
+
+.donation-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.donation-details p {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.donation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amounts {
+    display: flex;
+}
+
+.amounts-button button {
+    width: 240px;
+    height: 128px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    transition: 0.3s ease;
+    color: #006A50;
+    margin-top: 25px;
+}
+
+.amounts-button button:hover {
+    transition: 0.5s ease;
+    background-color: #006A50;
+    color: whitesmoke;
+    border: 1px solid #006A50;
+    cursor: pointer;
+}
+
+.donate-button button {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #006A50;
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.donate-button button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #006A50;
+}
+
+.amount-input #amount-input-field {
+    width: 1024px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
 }
