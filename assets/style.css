@@ -1,0 +1,208 @@
+* {
+    padding: 0px 25px;
+    font-family: Fira Sans;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    padding: 0px;
+}
+
+header .sign-in-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header button {
+    width: 116px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #006A50;
+    border-color: #006A50;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+header button:hover {
+    transition: 0.5s ease;
+    background-color: #006A50;
+    color: whitesmoke;
+    cursor: pointer;
+    border-color: whitesmoke;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 50px;
+    border-radius: 24px;
+}
+
+.thumbnail-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thumbnail-details p {
+    padding: 0px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.thumbnail-details h2 {
+    padding: 0px;
+    font-size: 56px;
+    margin: 0px;
+}
+
+.thumbnail-details button {
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #006A50;
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.thumbnail-details button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+}
+
+.pillar, .vision {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 50px 0px;
+}
+
+.pillar-section, .vision-section {
+    padding: 0px;
+    display: flex;
+    gap: 25px;
+}
+
+.pillar-heading, .vision-heading {
+    padding: 0px;
+}
+
+.pillar-heading h2, .vision-heading h2 {
+    padding: 0px;
+    font-size: 30px;
+}
+
+.vision-heading p {
+    padding: 0;
+    margin-bottom: 25px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.pillar-details {
+    padding:  25px 0px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: justify;
+}
+
+.vision-details-01 {
+    padding:  25px 0px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    text-align: justify;
+}
+
+.vision-details-01 .learn-more-button button {
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgba(84, 144, 245, 1);
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.vision-details-01 .learn-more-button button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: rgba(84, 144, 245, 1);
+    cursor: pointer;
+    border: none;
+}
+
+.vision-details-02 {
+    padding:  25px 0px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    background-color: rgba(198, 228, 214, 1);
+    text-align: justify;
+}
+
+.vision-details-02 .learn-more-button button {
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgba(9, 161, 92, 1);
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.vision-details-02 .learn-more-button button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: rgba(9, 161, 92, 1);
+    cursor: pointer;
+    border: none;
+}
+
+.vision-details-03 {
+    padding:  25px 0px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    background-color: rgba(247, 235, 207, 1);
+    text-align: justify;
+}
+
+.vision-details-03 .learn-more-button button {
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgba(255, 194, 57, 1);
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
+}
+
+.vision-details-03 .learn-more-button button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: rgba(255, 194, 57, 1);
+    cursor: pointer;
+    border: none;
+}
