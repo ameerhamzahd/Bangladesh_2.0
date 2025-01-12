@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    box-sizing: border-box; /* Important for consistent layout */
+    padding: 0px 25px;
     font-family: Fira Sans;
 }
 
@@ -8,29 +7,27 @@ body {
     background-color: rgba(241, 241, 243, 1);
 }
 
-header, footer {
-    width: 100%;
-    padding: 0;
-    background-color: white; /* Remove extra padding if necessary */
+header {
+    margin: 0px;
+    background-color: white;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
-    padding: 25px 75px;
 }
 
-header h1 {
+.header h1 {
     padding: 0px;
 }
 
-header .sign-in-button {
+.header .sign-in-button {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header button {
+.header button {
     width: 116px;
     height: 52px;
     font-size: 15px;
@@ -41,7 +38,7 @@ header button {
     transition: 0.3s ease;
 }
 
-header button:hover {
+.header button:hover {
     transition: 0.5s ease;
     background-color: #006A50;
     color: whitesmoke;
@@ -55,7 +52,6 @@ header button:hover {
     justify-content: space-between;
     background-color: #C6E4D6;
     padding: 50px;
-    margin: 0px 75px;
     border-radius: 24px;
 }
 
@@ -63,7 +59,6 @@ header button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
 }
 
 .thumbnail-details p {
@@ -99,29 +94,25 @@ header button:hover {
     border: 1px solid #006A50;
 }
 
-.pillar,
-.vision {
+.pillar, .vision {
     display: flex;
     flex-direction: column;
     padding: 0px;
-    margin: 50px 75px;
+    margin: 50px 0px;
 }
 
-.pillar-section,
-.vision-section {
-    padding: 25px 0px;
+.pillar-section, .vision-section {
+    padding: 0px;
     display: flex;
     gap: 25px;
 }
 
-.pillar-heading,
-.vision-heading {
+.pillar-heading, .vision-heading {
     padding: 0px;
 }
 
-.pillar-heading h2,
-.vision-heading h2 {
-    margin-bottom: 25px;
+.pillar-heading h2, .vision-heading h2 {
+    padding: 0px;
     font-size: 30px;
 }
 
@@ -132,7 +123,7 @@ header button:hover {
 }
 
 .pillar-details {
-    padding: 25px;
+    padding:  25px 0px;
     border: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     border-radius: 16px;
@@ -140,21 +131,13 @@ header button:hover {
     text-align: justify;
 }
 
-.pillar-details h3 {
-    padding: 25px 0px;
-}
-
 .vision-details-01 {
-    padding: 25px;
+    padding:  25px 0px;
     border: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     border-radius: 16px;
     background-color: rgba(84, 144, 245, 0.2);
     text-align: justify;
-}
-
-.vision-details-01 h3 {
-    padding: 25px 0px;
 }
 
 .vision-details-01 .learn-more-button button {
@@ -179,16 +162,12 @@ header button:hover {
 }
 
 .vision-details-02 {
-    padding: 25px;
+    padding:  25px 0px;
     border: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     border-radius: 16px;
     background-color: rgba(198, 228, 214, 1);
     text-align: justify;
-}
-
-.vision-details-02 h3 {
-    padding: 25px 0px;
 }
 
 .vision-details-02 .learn-more-button button {
@@ -213,16 +192,12 @@ header button:hover {
 }
 
 .vision-details-03 {
-    padding: 25px;
+    padding:  25px 0px;
     border: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     border-radius: 16px;
     background-color: rgba(247, 235, 207, 1);
     text-align: justify;
-}
-
-.vision-details-03 h3 {
-    padding: 25px 0px;
 }
 
 .vision-details-03 .learn-more-button button {
@@ -244,6 +219,29 @@ header button:hover {
     cursor: pointer;
     border: none;
     border: 1px solid rgba(255, 194, 57, 1);
+}
+
+.quote {
+    padding: 25px 0px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+}
+
+.quote-image img {
+    padding: 0px;
+}
+
+.quote-details {
+    z-index: 1;
+}
+
+.quote-details h3 {
+    padding: 0px;
+}
+
+.quote-details p {
+    font-style: italic;
+    padding: 0px;
 }
 
 .read-more-button button {
@@ -277,12 +275,10 @@ header button:hover {
 
 .recent-news-details {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-radius: 24px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     margin: 25px 0px;
-    background-color: white;
-    padding: 25px 0px;
 }
 
 .recent-news-contents {
@@ -293,8 +289,7 @@ header button:hover {
 
 .date-time {
     display: flex;
-    gap: 20px;
-    padding: 15px 0px;
+    gap: 25px;
 }
 
 .date-time p {
@@ -303,28 +298,19 @@ header button:hover {
 }
 
 .recent-news {
-    margin: 0px 75px;
+    padding: 0px;
 }
 
-.recent-news-info {
-    width: 60%;
-    margin: 10px 0px;
-    text-align: justify;
-}
-
-.recent-news-info img {
-    margin: 10px 0px;
-} 
-
-.recent-news-heading,
-.recent-news-heading h2,
-.recent-news-heading p {
-    padding: 10px 0px;
-
+.recent-news-heading, .recent-news-heading h2, .recent-news-heading p {
+    padding: 0px;
 }
 
 .recent-news-heading p {
     color: rgba(14, 14, 14, 0.5);
+}
+
+.recent-news-info {
+    text-align: justify;
 }
 
 .donation-details {
@@ -333,16 +319,11 @@ header button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 25px 75px;
-}
-
-.donation-details p {
-    padding: 0px 75px;
+    margin: 25px;
 }
 
 .donation-details p {
     color: rgba(14, 14, 14, 0.5);
-    margin: 25px;
 }
 
 .donation {
@@ -354,7 +335,6 @@ header button:hover {
 
 .amounts {
     display: flex;
-    gap: 25px;
 }
 
 .amounts-button button {
@@ -367,14 +347,13 @@ header button:hover {
     transition: 0.3s ease;
     color: #006A50;
     margin-top: 25px;
-    background-color: white;
 }
 
 .amounts-button button:hover {
     transition: 0.5s ease;
-    background-color: #C6E4D6;
-    color: #333;
-    border: 1px solid #C6E4D6;
+    background-color: #006A50;
+    color: whitesmoke;
+    border: 1px solid #006A50;
     cursor: pointer;
 }
 
@@ -414,7 +393,7 @@ header button:hover {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    margin: 50px 75px;
+    margin: 50px 0px;
     background-color: rgba(198, 228, 214, 1);
     border-radius: 24px;
     padding: 25px 0px;
@@ -439,7 +418,6 @@ header button:hover {
     border-bottom-left-radius: 8px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     display: flex;
-    padding: 0px 25px ;
 }
 
 .newsletter-input-button {
@@ -468,26 +446,14 @@ header button:hover {
     cursor: pointer;
 }
 
-.footer {
+footer {
+    /* margin: 0px -4%; */
+    padding: 25px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
-    padding: 25px 0px;
-    
-}
 
-.footer-heading {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 25px 0px;
-    width: 50%;
-}
-
-.social {
-    display: flex;
-    align-items: center;
-    padding-top: 25px;
-    gap: 25px;
 }
