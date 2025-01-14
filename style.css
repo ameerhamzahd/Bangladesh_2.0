@@ -12,6 +12,8 @@ body {
     background-color: rgba(241, 241, 243, 1);
 }
 
+/* Header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -46,6 +48,8 @@ body {
     border-color: whitesmoke;
     border: 1px solid whitesmoke;
 }
+
+/* Thumbnail */
 
 .thumbnail {
     display: flex;
@@ -93,6 +97,8 @@ body {
     border: none;
     border: 1px solid #006A50;
 }
+
+/* Pillar & Vision  */
 
 .pillar,
 .vision {
@@ -224,6 +230,8 @@ body {
     border: 1px solid rgba(255, 194, 57, 1);
 }
 
+/* Quote */
+
 .quote {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     font-size: 16px;
@@ -254,6 +262,8 @@ body {
     padding: 0px 10px;
     font-style: normal;
 }
+
+/* Recent News */
 
 .read-more-button button {
     width: 139px;
@@ -326,6 +336,8 @@ body {
 .recent-news-info {
     text-align: justify;
 }
+
+/* Donation| */
 
 .donation-details {
     display: flex;
@@ -403,6 +415,8 @@ body {
     margin-top: 25px;
     border-radius: 8px;
 }
+
+/* Opinion */
 
 .opinion {
     padding: 0px;
@@ -491,6 +505,8 @@ body {
     cursor: pointer;
   }
 
+/* Newsletter */
+
 .newsletter {
     display: flex;
     justify-content: center;
@@ -549,6 +565,8 @@ body {
     border: 1px solid #006A50;
     cursor: pointer;
 }
+
+/* Footer */
 
 footer {
     padding: 0;
